@@ -76,3 +76,41 @@ a {
   height: 210px;
   width: 450px;
 }
+
+.heading {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.information {
+  margin: 48px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 3px solid #3d83f6;
+  flex-shrink: 0;
+}
+
+.images {
+  margin: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.image-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 150px;
+  color: #5c6673;
+  flex-shrink: 0;
+  font-size: 15px;
+  text-align: center;
+}
